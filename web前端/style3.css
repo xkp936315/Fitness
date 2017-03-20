@@ -1,0 +1,272 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	font-family: arial;
+}
+
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.wrap{
+	width: 940px;
+	margin: 0 auto;
+
+}
+.banner{
+	height: 120px;
+	margin-top: 20px;
+}
+.logo{
+	float: left;
+}
+.fb{
+	float: right;
+}
+.list{
+	float: left;
+	
+	margin-left: 250px;
+	font-size: 20px;
+}
+#list1{
+	float: left;
+	margin-left: 30px;
+	color: rgb(1,165,202);
+}
+#list2{
+	float: left;
+	margin-left: 30px;
+}
+#list3{
+	float: left;
+	margin-left: 30px;
+}
+#list4{
+	float: left;
+	margin-left: 30px;
+}
+#list5{
+	float: left;
+	margin-left: 30px;
+}
+#list6{
+	float: left;
+	margin-left: 30px;
+
+}
+.clear{
+	clear: both;
+}
+.content{
+	
+	height: 415px;
+}
+.section_left{
+	float: left;
+}
+.section_right{
+	float: left;
+	height: 375px;
+	width: 240px;
+	background-color:rgb(41,41,41) ;
+	padding: 40px 30px 0px 30px;
+}
+.section_right h1{
+	color: rgb(1,165,202);
+	font-size: 40px;
+	margin-bottom:15px;
+}
+.section_right p{
+	color: rgb(171,171,171);
+	font-size: 20px;
+	line-height: 30px;
+}
+.readmore{
+	border: 1px solid rgb(63,63,63);
+	height: 40px;
+	width: 140px;
+	color:rgb(236,236,236);
+	font-weight: bold;
+	font-size: 15px;
+	background-color: rgb(63,63,63);
+	margin-top: 25px;
+
+}
+
+
+.content1{
+	height: 120px;
+	background-color: #fff;
+	margin-top: 30px;
+}
+.content1 p{
+	
+	padding: 20px 30px;
+	font-size: 20px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.content2{
+	height: 400px;
+	background-color: #fff;
+	margin-top: 40px;
+}
+
+.content2_left{
+	float: left;
+}
+.content2_right{
+	float: left;
+}
+.content2 h1{
+	font-size: 35px;
+	margin-left: 35px;
+	margin-bottom: 10px;
+	padding-top: 20px;
+}
+.left_top{
+	margin-left: 35px;
+	margin-bottom: 25px;
+}
+.left_bottom{
+	margin-left: 35px;
+}
+
+.left_top_pic{
+	float: left;
+}
+.left_top_info{
+	float: left;
+	width: 350px;
+	margin-left: 30px;
+	line-height: 20px;
+}
+.left_top_info h3{
+	font-size: 15px;
+	margin-bottom: 5px;
+	font-weight: bold;
+}
+
+.left_bottom_pic{
+	float: left;
+}
+.left_bottom_info{
+	float: left;
+	width: 350px;
+	margin-left: 30px;
+	line-height: 20px;
+}
+.left_bottom_info h3{
+	font-size: 15px;
+	margin-bottom: 5px;
+	font-weight: bold;
+}
+
+
+
+.content2_right{
+	/*background-color: green;*/
+	height: 400px;
+	width: 300px; 
+	margin-left: 20px;
+}
+
+/*Service list 連結*/
+.right_link ul{
+	padding-left:50px;
+	line-height: 25px;
+}
+
+
+/*Find us near you Form*/
+#zip{
+	border: 1px solid #c7c7c7;
+	height: 35px;
+	width: 220px;
+	color: #c7c7c7;
+	margin-left: 35px;
+	margin-bottom: 15px;
+	padding-left: 10px;
+}
+#button{
+	border: 1px solid #c7c7c7;
+	height: 35px;
+	width: 110px;
+	color:rgb(1,165,202);
+	margin-left: 35px;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+/*footer css*/
+.footer{
+	margin-top: 40px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+.footer p{
+	margin-top: 5px;
+	font-size: 20px;
+}
+
+
+/*color top*/
+.colorbar_pink{
+	height: 5px;
+	width: 6%;
+	float: left;
+	background-color: rgb(206,1,96);
+}
+.colorbar_green{
+	height: 5px;
+	width: 6%;
+	float: left;
+	background-color: rgb(160,204,5);
+}.colorbar_blue{
+	height: 5px;
+	width: 6%;
+	float: left;
+	background-color: rgb(1,146,193);
+}
+.colorbar{
+	background-color: rgb(41,41,41);
+}
