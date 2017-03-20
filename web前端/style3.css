@@ -30,7 +30,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
-	font-family: arial;
+	/*font-family: arial;*/
 }
 
 blockquote, q {
@@ -63,8 +63,8 @@ table {
 }
 .list{
 	float: left;
-	
-	margin-left: 250px;
+	margin-top: -25px;
+	margin-left: 310px;
 	font-size: 20px;
 }
 #list1{
@@ -99,6 +99,7 @@ table {
 .content{
 	
 	height: 415px;
+	margin-top: -10px;
 }
 .section_left{
 	float: left;
