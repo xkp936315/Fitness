@@ -1,0 +1,175 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	font-family:Microsoft JhengHei;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q { 
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+a, a:hover, a:visited, a:hover:visited{
+	color: inherit;
+	text-decoration: none;
+}
+h1{
+	font-size: 250%;
+}
+h2{
+	font-size: 220%;
+}
+h3{
+	font-size: 190%;
+}
+h4{
+	font-size: 170%;
+}
+h5{
+	font-size: 140%;
+}
+h6{
+	font-size: 100%;
+}
+#clear{
+	clear: both;
+}
+/*==== reset css =====*/
+
+.search_bar{
+	padding-left: 10px;
+	margin-top: 30px;
+}
+.search_bar input{
+	height: 20px;
+	widows: 120px;
+
+}
+#searchBar{
+	font-size: 13px;
+  	width: 120px;
+  	margin-left: 45px;
+  	margin-right: 10px;
+  	float: left;
+  	/*background: url('../images/search.png') no-repeat 3px 3px;*/
+}
+#searchImg{
+	height: 26px;
+	width: 26px;
+	float: left;
+}
+.left_side{
+	/*height: 800px;*/
+	width: 200px;
+	float: left;
+	margin: 30px 50px 0px 10px;
+	text-align: center;
+}
+.left_side a:hover{
+	color: #d2d2d2;
+}
+.left_side a{
+	color: #2f3030;
+
+}
+#classification{
+	height: 23px;
+	width: 110px;
+	background-color: rgb(75,75,75);
+	color: rgb(255,255,255);
+	text-align: center;
+	margin: 0px auto;
+	font-size: .75em;
+	padding-top: 5px;
+
+}
+#type li{
+	margin-bottom: 20px;
+	font-size: .75em;
+	
+}
+#type{
+	color: rgb(75,75,75);
+	padding-top: 15px;
+	margin-bottom: 20px;
+}
+
+.right_side_content{
+	float: left;
+	background-color: rgb(250,250,250);
+	height: 800px;
+	width: 80%;
+	margin-top: 30px;
+}
+.product{
+	height: 350px;
+	width: 250px;
+	background-color: rgb(255,255,255);
+	margin: 0px 50px 20px 10px;
+	float: left;
+	border-radius:10px;
+}
+#pro_pic{
+	background-color: rgb(236,231,228);
+	height: 220px;
+	border-radius:10px 10px 0px 0px;
+}
+#pro_pic img{
+	margin-top: 20px;
+	margin-left: 32px;
+}
+#title{
+	color: rgb(220,185,203);
+	margin-top: 10px;
+	margin-bottom: 20px;
+	padding-left: 20px;
+	height: 50px;
+	width: 200px;
+	text-align: center;
+	line-height: 25px;
+	font-size: .75em;
+}
+#price{
+	margin-right: 20px;
+	padding-left: 20px;
+	padding-top: 5px;
+	float: left;
+	font-size: 15px;
+	color: #2f3030;
+}
+#cart{
+	float: left;
+}
