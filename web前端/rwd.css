@@ -293,5 +293,10 @@ h1{
 }
 
 @media(max-width: 320px){
-
+		#topic_info p{
+			display: none;
+		}
+		.fb{
+			display: none;
+		}
 }
