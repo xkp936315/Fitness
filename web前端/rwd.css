@@ -1,0 +1,271 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+#clear{
+	clear: both;
+}
+.wrap{
+	max-width: 1000px;
+	margin: 0 auto;
+
+}
+
+#header{
+	margin: 2%;
+	height: auto;
+	/*border: 1px solid black;*/
+}
+.logo{
+	float: left;
+}
+.fb{
+	width: 70px;
+	height: 30px;
+	position: absolute;
+	top:15px;
+	right:15px;
+}
+.header_right{
+	float: right;
+	margin-top: 5%;
+}
+.nav{
+	float: right;
+	width: 100%;
+	font-size: 1.2em;
+	
+}
+.nav li{
+	float: left;
+	margin-left: 30px;
+}
+.nav a{
+	display: block;
+	text-decoration: none;
+	color: black;
+}
+.nav li a:hover{
+	color: rgb(1,165,202);
+}
+
+
+
+/*topic*/
+#topic{
+	margin: 0 auto;
+	background: #232323;
+}
+#topic_img{
+	height: auto;
+	width: 70%;
+	float: left;
+}
+#topic_img img{
+	width: 100%;
+	height: auto;
+	float: left;
+}
+
+
+#topic_wrap_info{
+	height: auto;
+	width: 30%;
+	float: left;
+}
+#topic_info{
+	padding: 40px;
+	height: 100%;
+	color:gray;
+	line-height: 200%;
+}
+#topic_info h1{
+	font-size: 2.5em;
+	color: rgb(1,165,202);
+	line-height: 1.1em;
+}
+
+#button{
+	border: 1px solid rgb(63,63,63);
+	height: 40px;
+	width: 140px;
+	color:rgb(236,236,236);
+	font-weight: bold;
+	font-size: 15px;
+	background-color: rgb(63,63,63);
+	margin-top: 25px;
+}
+
+/*content*/
+#content{
+	margin-top: 30px;
+	background-color: #fff;
+	padding: 20px;
+	line-height: 2em;
+}
+/*bottom*/
+#bottom{
+	margin-top: 30px;
+	background-color: #fff;
+	padding: 20px;
+	/*border: 1px solid black;*/
+	float: left;
+
+}
+#bottom_events{
+	width: 58%;
+	float: left;
+	/*border: 1px solid black;*/
+}
+.event{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.event_img {
+	width: 30%;
+	height: auto;
+	float: left;
+}
+.event_img img{
+	width: 100%;
+	height: auto;
+}
+.event_rwap_info{
+	width: 70%;
+	height: auto;
+	float: left;
+}
+.event_info p{
+	padding-left: 20px;
+	padding-right: 10px;
+	width: 90%;
+	line-height: 150%;
+}
+
+.event_info h2{
+	padding-left: 20px;
+	font-size: 15px;
+	padding-bottom: 5px;
+	font-weight: bold;
+	
+}
+
+#bottom_list{
+	width: 40%;
+	float: left;
+	/*border: 1px solid black;*/
+}
+#link{
+	margin-left: 50px;
+	margin-bottom: 30px;
+	line-height: 150%;
+}
+#link a{
+	text-decoration: none;
+	color: black;
+}
+#link ul{
+	list-style-image:url("images/dot_blue.gif");
+	padding-left: 10px;
+
+}
+#search{
+	margin-left: 50px;
+	line-height: 200%;
+}
+#footer{
+	margin-top: 2%;
+	margin-bottom: 20px;
+	text-align: center;
+}
+h1{
+	font-size: 200%;
+}
+/*----RWD----*/
+@media(max-width: 768px) {
+
+		/*----header----*/
+		.header_right{
+			float: none;
+			height: 100%;
+			width: 100%;
+		}
+		.nav{
+			float: none;
+		}
+
+		/*----topic----*/
+		#topic_img{
+			width: 100%;
+		}
+		#topic_wrap_info{
+			width: 100%;
+		}
+
+		/*----bottom----*/
+		#bottom_events{
+			width: 100%;
+		}
+		#bottom_list{
+			width: 100%;
+		}
+}
+
+@media(max-width: 414px){
+		/*----bottom----*/
+		.event_img{
+			width: 100%;
+		}
+		.event_rwap_info{
+			width: 100%;
+		}
+
+}
+
+@media(max-width: 320px){
+
+}
